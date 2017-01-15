@@ -11,6 +11,7 @@ gem 'puma', '~> 3.0'
 gem 'jbuilder', '~> 2.5'
 gem 'rails_12factor', group: :production
 gem 'responders'
+gem 'rack-cors', :require => 'rack/cors'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
